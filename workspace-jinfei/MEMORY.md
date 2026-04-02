@@ -45,11 +45,19 @@
 - 多次迭代 v1~v4
 - 具体表现待观察
 
+## TradeSense 项目 (K线回放训练)
+
+- 路径：`C:\1\projects\claw-projects\tradesense\`
+- 技术栈：前端 Lightweight Charts + 后端 FastAPI + 掘金数据
+- 功能：K线回放、EMA指标叠加
+- 状态：搭建完成，待测试
+
 ## 待处理
 
-- 假突破策略参数优化（lookback/fail_window）
-- 可尝试不同品种和周期
-- MA+ATR 策略结果待复盘
+- [ ] TradeSense 后端服务测试（需掘金终端运行）
+- [ ] 前端回放功能验证
+- [ ] 假突破策略参数优化（lookback/fail_window）
+- [ ] MA+ATR 策略结果待复盘
 
 ## 关于金融市场
 
